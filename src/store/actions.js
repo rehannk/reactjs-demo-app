@@ -1,0 +1,12 @@
+export const INCREMENT = 'INCREMENT';
+export const DECREMENT = 'DECREMENT';
+export const ADD = 'ADD';
+export const SUBTRACT = 'SUBTRACT';
+export const STORE_RESULT = 'STORE_RESULT';
+export const DELETE_RESULT = 'DELETE_RESULT';
+export const INCREMENT_ASYNC = 'INCREMENT_ASYNC';
+export const DECREMENT_ASYNC = 'DECREMENT_ASYNC';
+export const ADD_ASYNC = 'ADD_ASYNC';
+export const SUBTRACT_ASYNC = 'SUBTRACT_ASYNC';
+export const GET_USERS = "GET_USERS";
+export const USERS_ERROR = "USERS_ERROR";

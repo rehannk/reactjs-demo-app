@@ -1,38 +1,72 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.storeList {
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  box-sizing: border-box;
+  width: 80%;
+  text-align: center;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btnList {
+  color: #fff !important;
+  text-decoration: none;
+  background: #fa923f;
+  padding: 20px;
+  margin: 0px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btnList:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
+}
+
+.userContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 2% 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.userList {
+  width: 130px;
+  height: 130px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 16px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userList:hover,
+.userList:active {
+  background-color: #eee;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 72px;
+  padding: 20px;
 }
